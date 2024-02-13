@@ -1,0 +1,24 @@
+# Archivos y directorios del entorno virtual
+venv/
+myenv/
+/venv/
+
+# Archivos de caché y pycache
+__pycache__/
+*.pyc
+
+# Archivo de configuración local (si usas por ejemplo .env)
+.env
+
+# Archivos de migraciones de Django
+*.db
+/migrations/
+
+# Archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos y directorios de logs
+log/
+logs/
+
