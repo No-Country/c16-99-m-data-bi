@@ -26,6 +26,9 @@ Este departamento desempeña un papel fundamental al diseñar algoritmos avanzad
 
 # Como lo hacemos:
 
+![hacemos](https://github.com/No-Country/c16-99-m-data-bi/commit/33810f9413feb149dc04a68406bd5a239e3f1999#commitcomment-138755855) 
+
+
 
 # Nuestro Departamento de BI Analyst:
 El analista de datos desempeña un papel crucial al colaborar estrechamente con el cliente para comprender a fondo sus necesidades y desafíos. Mediante un análisis detallado de los datos de la empresa, identifica patrones y tendencias que podrían indicar posibles fraudes. Este análisis exhaustivo proporciona una base sólida para el diseño de soluciones personalizadas y la presentación de informes precisos sobre la situación actual del cliente.
