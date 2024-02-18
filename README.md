@@ -17,7 +17,7 @@ Elaborar un análisis de su negocio para otorgarle la información necesaria par
 Nuestro equipo esta formado por profesionales :
 
 
-- [Beatriz Rodriguez](www.linkedin.com/in/beatrizrodriguez) Analistas de Datos :
+- [Beatriz Rodriguez](https://www.linkedin.com/in/bearodriguez/#:~:text=www.linkedin.com/in/bearodriguez) Analistas de Datos :
 encargado de explorar y visualizar los datos para extraer información valiosa. Proporcionando informes claros y concisos que colaboren en la toma de decisiones fundamentadas en datos.
 
 - [Marianela Caceres](https://www.linkedin.com/in/marianelacaceres) Científicos de Datos : 
