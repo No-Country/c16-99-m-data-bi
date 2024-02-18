@@ -117,3 +117,38 @@ FP_NB <- as.data.frame(vChuncks[[1]][Fp_indices_NB, ])
 FN_NB <- as.data.frame(vChuncks[[1]][Fn_indices_NB, ])
 VP_NB <- as.data.frame(vChuncks[[1]][Vp_indices_NB, ])
 VN_NB <- as.data.frame(vChuncks[[1]][Vn_indices_NB, ])
+
+
+########## PREDICIENDO UN REGISTROS CUSTOM ##########
+#vAnalisis_df<-as.data.frame(vAnalisis)
+#print(vAnalisis)
+namesDf<- c("distance_from_home","distance_from_last_transaction","ratio_to_median_purchase_price","repeat_retailer","used_chip","used_pin_number","online_order")
+valoresDf<-c(57,5,2,1,0,0,1)
+Df_Analisis<-data.frame(t(valoresDf))
+colnames(Df_Analisis)<-namesDf
+
+#1-SVM
+
+load('C:/Users/maxco/Mi unidad/NoCountry/03-Codigo/Backend/svmodel2.rda')
+
+P_svnmodel_I<-predict(svmmodel, Df_Analisis)
+print(P_svnmodel_I)
+
+#2-GBost
+load('C:/Users/maxco/Mi unidad/NoCountry/03-Codigo/Backend/boostFit2.rda')
+
+P_boostFit_I<-predict(boostFit, Df_Analisis)
+print(P_boostFit_I)
+
+#3-Naive-Bayes
+
+#Siendo que el conjunto de datos es el dataset datos y NB el modelo de aprendizaje
+load('C:/Users/maxco/Mi unidad/NoCountry/03-Codigo/Backend/NBmodel.rda')
+
+#Ejecución del modelo del primer chunck de a 1000 datos
+P_NB_I <- predict(m_naive, newdata = Df_Analisis)
+print(P_NB_I)
+
+
+
+
