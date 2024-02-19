@@ -26,7 +26,7 @@ un experto en extraer, analizar e interpretar grandes volúmenes de datos comple
 - [Maximiliano Correa Pietrobon](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/) , [Cristian Bufalini]() , [Matias Amengual]() Ingenieros de Datos :
 desempeñan un papel fundamental en la construcción y mantenimiento de la infraestructura necesaria para el análisis de datos. Estan encargados de diseñar y desarrollar sistemas de almacenamiento, bases de datos y pipelines de procesamiento de datos eficientes. Su trabajo asegura que los científicos de datos y otros profesionales tengan acceso a datos confiables, oportunos y de alta calidad. 
 
-- [Ailen Bogao](https://www.linkedin.com/in/ailen-violeta-bogao) , [Maximiliano Correa](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/)  Machine Learning: 
+- [Ailen Bogao](https://www.linkedin.com/in/ailen-violeta-bogao) , [Maximiliano Correa Pietrobon](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/)  Machine Learning: 
 Este departamento desempeña un papel fundamental al diseñar algoritmos avanzados adaptados específicamente a las necesidades de tu empresa. Su principal objetivo es crear modelos predictivos capaces de analizar patrones complejos en grandes conjuntos de datos, permitiendo así la identificación proactiva de posibles fraudes. Al emplear técnicas de aprendizaje automático, el equipo busca constantemente mejorar la precisión y la eficiencia del sistema, asegurando una detección temprana y precisa de actividades sospechosas. Además, este enfoque evolutivo garantiza una adaptabilidad continua a medida que las amenazas cambian con el tiempo, proporcionando una defensa sólida contra riesgos potenciales.
 
 # Como lo hacemos:
