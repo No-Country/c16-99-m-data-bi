@@ -23,7 +23,7 @@ encargado de explorar y visualizar los datos para extraer información valiosa.�
 - [Marianela Caceres](https://www.linkedin.com/in/marianelacaceres) Científicos de Datos : 
 un experto en extraer, analizar e interpretar grandes volúmenes de datos complejos, utilizando técnicas estadísticas, aprendizaje automático y programación para descubrir información valiosa y generar modelos predictivos. Su objetivo principal será transformar datos en ideas y ayudar a tomar decisiones estratégicas basadas en evidencia.
 
-- [Maximiliano Correa](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/) , [Cristian Bufalini]() , [Matias Amengual]() Ingenieros de Datos :
+- [Maximiliano Correa Pietrobon](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/) , [Cristian Bufalini]() , [Matias Amengual]() Ingenieros de Datos :
 desempeñan un papel fundamental en la construcción y mantenimiento de la infraestructura necesaria para el análisis de datos. Estan encargados de diseñar y desarrollar sistemas de almacenamiento, bases de datos y pipelines de procesamiento de datos eficientes. Su trabajo asegura que los científicos de datos y otros profesionales tengan acceso a datos confiables, oportunos y de alta calidad. 
 
 - [Ailen Bogao](https://www.linkedin.com/in/ailen-violeta-bogao) , [Maximiliano Correa](https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/)  Machine Learning: 
