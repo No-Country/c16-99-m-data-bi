@@ -1,6 +1,6 @@
 ## FRAUD GUARDIA
 
-![logo](https://github.com/No-Country/c16-99-m-data-bi/blob/main/logoverde.jpeg) 
+![logo](https://github.com/No-Country/c16-99-m-data-bi/blob/main/Captura%20de%20pantalla%202024-02-20%20a%20la(s)%2012.05.07.png) 
 
 # Somos una empresa encargada de proteger tu empresa de los fraudes financieros que ocurren cuando concreta ventas.
 
