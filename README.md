@@ -40,6 +40,8 @@ El analista de datos desempeña un papel crucial al colaborar estrechamente con 
 Departamento de Machine Learning:
 En colaboración con el analista de datos, el equipo de Machine Learning desarrolla un modelo específico para el cliente, utilizando algoritmos avanzados para detectar anomalías y comportamientos fraudulentos en los datos. Este modelo se ajusta continuamente para mejorar su capacidad predictiva y se somete a rigurosas pruebas antes de ser presentado al cliente para su aprobación.
 
+ [Trabajo realizado por Beatriz Rodriguez en Power BI](https://github.com/No-Country/c16-99-m-data-bi/blob/main/fraudes2.pbix)
+
 
 # Departamento de Ingenieros de Datos:
 Una vez que el cliente aprueba el modelo de Machine Learning, entra en acción el equipo de ingenieros de datos. Su tarea principal es implementar la solución de manera eficiente, asegurando que la interfaz de usuario sea intuitiva y que la integración en los sistemas existentes sea fluida. Además, se encargan de la gestión y optimización de la infraestructura necesaria para respaldar el modelo, garantizando un rendimiento óptimo a lo largo del tiempo.
