@@ -2,7 +2,7 @@
 
 ![logo](https://github.com/No-Country/c16-99-m-data-bi/blob/main/Captura%20de%20pantalla%202024-02-20%20a%20la(s)%2012.05.07.png) 
 
-# Somos una empresa encargada de proteger tu empresa de los fraudes financieros que ocurren cuando concreta ventas.
+# Somos una empresa encargada de detectar si su empresa sufrió fraudes financieros .
 
 El fraude financiero es un problema creciente que afecta a empresas e individuos por igual. La detección de fraude en transacciones financieras es un campo desafiante pero crucial para proteger la integridad del sistema financiero. 
 El fraude financiero abarca una amplia gama de actividades ilícitas con el objetivo de obtener ganancias a expensas de la víctima. En el contexto de las transacciones financieras, algunos ejemplos comunes incluyen: Robo de identidad: Uso de información personal robada para realizar transacciones no autorizadas. Suplantación de identidad: Falsificación de la identidad de una persona para realizar transacciones fraudulentas. Manipulación de datos: Alteración de información financiera para obtener un beneficio ilegítimo.
@@ -10,7 +10,7 @@ El fraude financiero abarca una amplia gama de actividades ilícitas con el obje
 Las transacciones fraudulentas a menudo presentan características distintivas que las diferencian de las legítimas. Algunas de estas características incluyen: Comportamiento inusual: Patrones de transacción inconsistentes con el historial del usuario. Inconsistencias en la información: Datos inconsistentes en la información de la transacción o del usuario. Montos de transacción elevados: Transacciones por montos inusualmente altos. Ubicación inusual: Transacciones realizadas desde ubicaciones inesperadas. Velocidad de transacción: Múltiples transacciones realizadas en un corto período de tiempo.
 
 # NUESTRO OBJETIVO:
-Elaborar un análisis de su negocio para otorgarle la información necesaria para que decida si necesita tener un sistema eficiente de Alarma contra posible fraude.
+Elaborar un informe completo y detallado de los fraudes que sufrió su empresa, además ofrecemos un seguimiento de los mismos.
 
 # QUIENES SOMOS:
 
