@@ -33,7 +33,9 @@ Este departamento desempeña un papel fundamental al diseñar algoritmos avanzad
 
 ![Cliente y Data BI](https://github.com/No-Country/c16-99-m-data-bi/assets/110134592/e6f41e34-802b-4689-92ef-3285b8a70f67) 
 
-
+Realizamos un  análisis exhaustivo para detectar si hay fraudes.
+El departamento de ingenieros de datos junto con nuestra Científica de datos ponen en en marcha modelos de Machine Learning, con distintos grados de efectividad para encontrar el mas adecuado a su empresa.
+Nuestras Analistas BI se encargan de otorgar la información precisa y clara que resulta de los modelos de Machine Learning.
 
 # Nuestro Departamento de BI Analyst:
 El analista de datos desempeña un papel crucial al colaborar estrechamente con el cliente para comprender a fondo sus necesidades y desafíos. Mediante un análisis detallado de los datos de la empresa, identifica patrones y tendencias que podrían indicar posibles fraudes. Este análisis exhaustivo proporciona una base sólida para el diseño de soluciones personalizadas y la presentación de informes precisos sobre la situación actual del cliente.
@@ -51,14 +53,13 @@ Una vez que el cliente aprueba el modelo de Machine Learning, entra en acción e
 El departamento de científicos de datos supervisa de cerca todo el proceso, desde la identificación de patrones hasta la implementación del modelo. Utilizan su experiencia para validar la solidez estadística del modelo y garantizar que cumple con los estándares de calidad. Además, supervisan la evolución del modelo a medida que se enfrenta a nuevos datos y desafíos, asegurando su confiabilidad a largo plazo.
 En conjunto, estos equipos colaboran de manera integral para proporcionar al cliente una solución de prevención de fraudes efectiva, adaptable y respaldada por análisis detallados, modelado avanzado y una implementación eficiente.
 
-_Data :_
-Dashoard analizando la problemática de la empresa(agregar captura de dasboard)
+[Video Explicativo del Proyecto](https://drive.google.com/drive/folders/1_C51X-8PmXlHNNmxMZK32kT7DYXLMSfo?usp=sharing)
 
-Página que contiene ML y Alerta(agregar link)
+[Nuestra Web](https://xqv5h2m0-8000.brs.devtunnels.ms/)
 
 [Data](https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/discussion/335338)
 
-
+[Demo]()
 
 
 
