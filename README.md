@@ -31,7 +31,7 @@ Este departamento desempeña un papel fundamental al diseñar algoritmos avanzad
 
 # Como lo hacemos:
 
-![hacemos](https://github.com/No-Country/c16-99-m-data-bi/blob/main/Cliente%20y%20Data%20BI.jpg) 
+![Cliente y Data BI](https://github.com/No-Country/c16-99-m-data-bi/assets/110134592/e6f41e34-802b-4689-92ef-3285b8a70f67) 
 
 
 
