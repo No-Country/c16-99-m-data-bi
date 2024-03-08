@@ -59,7 +59,7 @@ En conjunto, estos equipos colaboran de manera integral para proporcionar al cli
 
 [Data](https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud/discussion/335338)
 
-[Demo]()
+[Demo]((https://github.com/No-Country/c16-99-m-data-bi/files/14540335/Copia.de.FraudGuardian.-.Presentacion.pdf))
 
 
 
