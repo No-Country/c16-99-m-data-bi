@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/login.css' %}">
+</head>
+
+<body>
+    <div class="form-background">
+        <div class="form">
+            <ul class="tab-group">
+                <li class="tab"><a href="{% url 'register' %}">Sign Up</a></li>
+                <li class="tab active"><a href="{% url 'login' %}">Log In</a></li>
+            </ul> 
+
+                <h1>Welcome Back!</h1>
+                
+                <form action="/" method="post">
+                
+                <div class="field-wrap">
+                <label>
+                    Email Address<span class="req">*</span>
+                </label>
+                <input type="email"required autocomplete="off"/>
+                </div>
+                
+                <div class="field-wrap">
+                <label>
+                    Password<span class="req">*</span>
+                </label>
+                <input type="password"required autocomplete="off"/>
+                </div>
+                
+                <p class="forgot"><a href="#">Forgot Password?</a></p>
+                
+                <button class="button button-block"/>Log In</button>
+                
+                </form>
+        
+        </div>
+    </div> <!-- /form-background -->
+    <script src="{% static 'assets/js/login.js' %}"></script>
+</body>
+</html>
+{% endblock content %}

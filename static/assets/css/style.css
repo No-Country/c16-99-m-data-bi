@@ -19,6 +19,7 @@ body {
     font-weight: 300;
 }
 
+
 img {
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -105,6 +106,7 @@ ul {
     padding: 0;
 }
 
+
 img {
     max-width: 100%;
 }
@@ -126,6 +128,7 @@ input[type="color"],
 .uneditable-input {
     outline: none;
 }
+
 .form-control {
     border: 1px solid rgba(0, 0, 0, 0.08);
     font-size: 16px;
@@ -365,6 +368,7 @@ Button
 
 
 .input-lg, .form-group-lg .form-control {
+    text-align: center; /* Centra horizontalmente */
     height: 46px;
     width: 100%;
     padding: 10px 16px;
@@ -559,10 +563,15 @@ textarea::-ms-input-placeholder
     font-size:14px;
     font-weight:600;
 	text-transform:uppercase;
+    transition: color 0.3s ease;
 }
-.navbar-default .navbar-nav li a :hover{
-    color: #82ca9c;
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li.active>a {
+    color: #82ca9c; /* Cambia el color al hacer hover o cuando la pestaña está activa */
 }
+
+
 .navbar-default .collapse .login a{
     color: #82ca9c;
     border: 1px solid #82ca9c;
@@ -582,8 +591,9 @@ textarea::-ms-input-placeholder
     color: #82ca9c;
     background-color: transparent;
 }
-.navbar-brand{
-	margin-top:-5px;	
+.navbar-brand {
+    margin-right: -150px; /* Ajusta según sea necesario para el margen derecho */
+    padding: 2px 7px; /* Ajusta según sea necesario para el espacio alrededor del logo */
 }
 
 
@@ -596,6 +606,7 @@ textarea::-ms-input-placeholder
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+    opacity: 10;  
 }
 .home-wrapper{
     padding:180px 0px;
@@ -615,25 +626,30 @@ textarea::-ms-input-placeholder
     margin-top: 90px;
 }
 
-.home-contact .input-group{display: block;}
+.home-contact .input-group{
+    display: block;
+    text-align: center;
+}
 .home-content .input-group .form-control {
     position: relative;
     z-index: 2;
-    float: left;
-    width: 65%;
-    margin-bottom: 0;
-    height: 60px;
+    margin-bottom: 20px;
+    height: 55px;
+    margin-right: 10px;
+    
 
 }
+
 .home-content .home-contact input[type="text"]{
     color:#82ca9c;
 }
 .home-content .home-contact input[type="submit"]{
     display:inline-block;
-    width:35%;
-    background:#82ca9c;
+    background:#59af78;
     color:#fff;
 	border: 0px;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 .home-content .home-contact input[type="submit"]:hover{
 	background-color: rgba(0, 173, 62, 0.75);
@@ -660,7 +676,25 @@ textarea::-ms-input-placeholder
 
 /* features  section */
 
-.single_features_left img{
+
+.power-bi-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%; /* Proporción de aspecto 16:9 (ajustable según tus necesidades) */
+}
+
+.power-bi-iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+/* .single_features_left img{
     height:460px;
 }
 .single_features_right {
@@ -679,7 +713,7 @@ textarea::-ms-input-placeholder
 .single_features_right ul li{
     font-size:18px;
     margin-top:3%;
-}
+} */
 
 /* Service2 Section */
 .service2{}
@@ -1650,7 +1684,7 @@ xkeyframes
 .copyright p i{
     color:#ff0000;
 }.copyright p a{
-    color:#32E10A;
+    color:#82ca9c;
 }
 
 

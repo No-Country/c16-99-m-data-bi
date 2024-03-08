@@ -22,6 +22,7 @@
 
         <!--Theme custom css -->
         <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/style_predic.css' %}">
 
         <!--Theme Responsive css-->
         <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}" />
@@ -43,14 +44,14 @@
                             <div class="social-icon">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.nocountry.tech/"><i class="fa fa-google-plus"></i></a>
+                                <a href="https://www.linkedin.com/company/nocountrytalent/?originalSubdomain=ar"><i class="fa fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="social-contact">
-                                <a href="#"><i class="fa fa-phone"></i>+011 54925849</a>
-                                <a href="#"><i class="fa fa-envelope"></i>contact@fraud_detection.com</a>
+                                <a href="https://api.whatsapp.com/send?phone=2993250803"><i class="fa fa-phone"></i>+54 2993250803</a>
+                                <a href="mailto:cristianbufaliniadrian@gmail.com" target="_blank" ><i class="fa fa-envelope"></i>cristianbufaliniadrian@gmail.com</a>
                             </div>
                         </div>
                     </div>
@@ -68,20 +69,19 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="{% static 'assets/images/logo.png' %}" alt="Logo" /></a>
+                    <a class="navbar-brand" href="#"><img src="{% static 'assets/images/logo_empresa.png' %}" alt="Logo" /></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#features">PRODUCT</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#price">PRICE</a></li>
-                        <li><a href="#business">Business</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="login"><a href="#">Sign In</a></li>
+                        <li class="home-tab active"><a href="{% url 'home' %}">Home</a></li>
+                        <li class="product-tab"><a href="{% url 'product' %}">ANALYSIS</a></li>
+                        <li class="service-tab"><a href="{% url 'service' %}">Service</a></li>
+                        <li class="price-tab"><a href="{% url 'price' %}">PRICE</a></li>
+                        <li class="contact-tab"><a href="{% url 'contact' %}">Contact</a></li>
+                        <li class="login"><a href="{% url 'login' %}">Sign In</a></li>
                     </ul>
 
                 </div><!-- /.navbar-collapse -->
@@ -91,66 +91,72 @@
 {% block content %}
 {% endblock content %}
 
-        <section id="footer-menu" class="sections footer-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-menu-wrapper">
+<section id="footer-menu" class="sections footer-menu">
+    <div class="container">
+        <div class="row">
+            <div class="footer-menu-wrapper">
 
-                        <div class="col-md-8 col-sm-12 col-xs-12">
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="menu-item">
-                                    <h5>Quick Links</h5>
-                                    <ul>
-                                        <li>POWER BI DESKTOP</li>
-                                        <li>MOBILE</li>
-                                        <li>SEE ALL DOWNLOADS</li>
-                                        <li>POWER BI DESKTOP</li>
-                                        <li>MOBILE</li>
-                                        <li>SEE ALL DOWNLOADS</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="menu-item">
-                                    <h5>Legal</h5>
-                                    <ul>
-                                        <li>PRIVACY & COOKIES</li>
-                                        <li>TERMS OF USE</li>
-                                        <li>TRADEMARKS</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="menu-item">
-                                    <h5>Information</h5>
-                                    <ul>
-                                        <li>SUPPORT</li>
-                                        <li>DEVELOPERS</li>
-                                        <li>BLOG</li>
-                                        <li>NEWSLETTER</li>
-                                        <li>PYRAMID ANALYTICS</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="menu-item">
-                                <h5>Newsletter</h5>
-                                <p>Insights await in your company's data. Bring them into focus with BlueLance.</p>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Enter your email address">
-                                    <input type="submit" class="form-control" value="Use It Free">
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="menu-item">
+                        <h5>Cristian Bufalini</h5>
+                        <ul>
+                            <li>Web Developer</li>
+                            <li>Data Scientist </li>
+                            <li><a href="https://www.linkedin.com/in/cristian-bufalini/" target="_blank">LINKEDIN</a></li>
+                        </ul>
                     </div>
                 </div>
+
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="menu-item">
+                        <h5>Maximiliano Correa Pietrobon</h5>
+                        <ul>
+                            <li>Web Developer</li>
+                            <li>Data Scientist</li>
+                            <li><a href="https://www.linkedin.com/in/maximiliano-correa-pietrob%C3%B3n-209369226/" target="_blank">LINKEDIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="menu-item">
+                        <h5>Beatriz Rodriguez</h5>
+                        <ul>
+                            <li>Power BI Developer</li>
+                            <li>Data Analyst</li>
+                            <li><a href="https://www.linkedin.com/in/bearodriguez/" target="_blank">LINKEDIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="menu-item">
+                        <h5>Ailen Bogao</h5>
+                        <ul>
+                            <li>Power BI Developer</li>
+                            <li>Data Analyst</li>  
+                            <li><a href="https://www.linkedin.com/in/ailen-violeta-bogao/" target="_blank">LINKEDIN</a></li>
+                        </ul>    
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="menu-item">
+                        <h5>Marianela Caceres</h5>
+                        <ul>
+                            <li>Power BI Developer</li>
+                            <li>Data Analyst</li>
+                            <li><a href="https://www.linkedin.com/in/marianelacaceres/" target="_blank">LINKEDIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+
 
         <!--Footer-->
         <footer id="footer" class="footer">
@@ -160,7 +166,7 @@
 
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="footer-brand">
-                                <img src="{% static 'assets/images/logo.png' %}" alt="logo" />
+                                <img src="{% static 'assets/images/logo_empresa.png' %}" alt="logo" />
                             </div>
                         </div>
 

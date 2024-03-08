@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body>
+    <h1 class="predictions-title">Procesamiento del modelo Support Vector Machine(SVM)</h1>
+    {% if archivo_resultados %}
+    <p class='parrafo1'>Los resultados completos puede descargarlo AQUI: <a href="{% url 'predictions_svm_download' %}" class="download-link" download>Descargar prediccion completa</a></p>
+        <p class='parrafo2'> El modelo da un valor de precisión (accuracy) de 0.995924 significa que el 99.59% de las predicciones realizadas son correctas en ese conjunto de datos específicos, siendo 1 el 100% de efectividad.</p>
+        <p class='parrafo3'>La matriz de confusión(rendimiento del modelo)en el conjunto de prueba es:</p>
+            <li class='lista1'>True Positive (TP): 21097. Indica que el modelo predijo correctamente 21097 instancias que realmente pertenecían a la clase positiva (fraude).</li>
+            <li class='lista1'>True Negative (TN): 227884. Indica que el modelo predijo correctamente 227884 instancias que realmente pertenecían a la clase negativa (no fraude).</li>
+            <li class='lista1'>False Positive (FP): 350. Indica que el modelo predijo incorrectamente 350 instancias como positivas cuando realmente pertenecían a la clase negativa.</li>
+            <li class='lista1'>False Negative (FN): 669. Indica que el modelo predijo incorrectamente 669 instancias como negativas cuando realmente pertenecían a la clase positiva.</li>
+
+        <table class="predictions-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Distancia desde casa</th>
+                    <th>Distancia desde la última transacción</th>
+                    <th>Relación al precio de compra mediano</th>
+                    <th>Repetidor minorista</th>
+                    <th>Chip usado</th>
+                    <th>Número PIN usado</th>
+                    <th>Pedido en línea</th>
+                    <th>Fraude Real</th>
+                    <th>Predicción de Fraude</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for _, row in df_predicciones.iterrows %}
+                <tr {% if row.predicted_fraud == 1.0 %} class="fraud-row" {% endif %}>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ row.distance_from_home }}</td>
+                    <td>{{ row.distance_from_last_transaction }}</td>
+                    <td>{{ row.ratio_to_median_purchase_price }}</td>
+                    <td>{{ row.repeat_retailer }}</td>
+                    <td>{{ row.used_chip }}</td>
+                    <td>{{ row.used_pin_number }}</td>
+                    <td>{{ row.online_order }}</td>
+                    <td>{{ row.fraud }}</td>
+                    <td>{{ row.predicted_fraud }}</td>
+                </tr> 
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</body>
+</html>
+{% endblock content %}

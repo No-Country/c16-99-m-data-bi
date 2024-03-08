@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #apps created
     'apps.home',
+    'apps.predictions',
 ]
 
 MIDDLEWARE = [

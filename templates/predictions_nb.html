@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body>
+    <h1 class="predictions-title">Procesamiento Completo Modelo NB</h1>
+    {% if archivo_resultados %}
+    <p class='parrafo1'>Los resultados completos puede descargarlo AQUI: <a href="{% url 'predictions_nb_download' %}" class="download-link" download>Descargar prediccion completa</a></p>
+    <p class='parrafo2'> El modelo da un valor de precisión (accuracy) de 0.996 significa que el 99.6% de las predicciones realizadas son correctas en ese conjunto de datos específicos, siendo 1 el 100% de efectividad. </p>
+        <p class='parrafo3'>La matriz de confusión(rendimiento del modelo)en el conjunto de prueba es:</p>
+            <li class='lista1'>True Positive (TP): 12934. Indica que el modelo predijo correctamente 12934 instancias que realmente pertenecían a la clase positiva.</li>
+            <li class='lista1'>True Negative (TN): 224837. Indica que el modelo predijo correctamente 224837 instancias que realmente pertenecían a la clase negativa.</li>
+            <li class='lista1'>False Positive (FP): 3397. Indica que el modelo predijo incorrectamente 3397 instancias como positivas cuando realmente pertenecían a la clase negativa.</li>
+            <li class='lista1'>False Negative (FN): 8832. Indica que el modelo predijo incorrectamente 8832 instancias como negativas cuando realmente pertenecían a la clase positiva.</li>
+        <table class="predictions-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Distancia desde casa</th>
+                    <th>Distancia desde la última transacción</th>
+                    <th>Relación al precio de compra mediano</th>
+                    <th>Repetidor minorista</th>
+                    <th>Chip usado</th>
+                    <th>Número PIN usado</th>
+                    <th>Pedido en línea</th>
+                    <th>Fraude Real</th>
+                    <th>Predicción de Fraude</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for _, row in df_predicciones.iterrows %}
+                <tr {% if row.predicted_fraud == 1.0 %} class="fraud-row" {% endif %}>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ row.distance_from_home }}</td>
+                    <td>{{ row.distance_from_last_transaction }}</td>
+                    <td>{{ row.ratio_to_median_purchase_price }}</td>
+                    <td>{{ row.repeat_retailer }}</td>
+                    <td>{{ row.used_chip }}</td>
+                    <td>{{ row.used_pin_number }}</td>
+                    <td>{{ row.online_order }}</td>
+                    <td>{{ row.fraud }}</td>
+                    <td>{{ row.predicted_fraud }}</td>
+                </tr> 
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</body>
+</html>
+{% endblock content %}

@@ -1,12 +1,21 @@
 "use strict";
 
-
 jQuery(document).ready(function ($) {
 
-	$(window).load(function () {
-		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
-	});
+    $(window).load(function () {
+        $(".loaded").fadeOut();
+        $(".preloader").delay(1000).fadeOut("slow");
+    });
+
+    // Cambio de color del texto de las pestañas al hacer clic
+    $('.nav.navbar-nav li').click(function () {
+        // Elimina la clase 'active' de todas las pestañas
+        $('.nav.navbar-nav li').removeClass('active');
+
+        // Agrega la clase 'active' a la pestaña clicada
+        $(this).addClass('active');
+    });
+
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
